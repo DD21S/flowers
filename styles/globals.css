@@ -1,16 +1,21 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+/* variabels  */
+:root {
+  --backgroud: #18a558;
+  --primary: #21B6A8;
+  --secondary: #A3EBB1;
+  --secondary-dark: #116530;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-* {
+/* globals  */
+html {
   box-sizing: border-box;
+}
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: var(--backgroud);
 }
