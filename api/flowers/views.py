@@ -13,4 +13,5 @@ class FlowerViewSet(viewsets.ModelViewSet):
 	serializer_class = FlowerSerializer
 	queryset = Flower.objects.all()
 	permission_classes = [IsAuthenticatedOrReadOnly]
+	lookup_field = 'slug'
  

@@ -6,3 +6,6 @@ class FlowerSerializer(serializers.ModelSerializer):
 	class Meta:
 		model = Flower
 		fields = '__all__'
+		lookup_field = 'slug'
+		extra_kwargs = {'url': {'lookup_field': 'slug'}}
+

@@ -1,9 +1,15 @@
 import type { NextPage } from 'next'
+import Head from 'next/head'
 
 const About: NextPage = () => {
 	return (
 		<>
-			<h1>About</h1>
+			<Head>
+				<title>Flowers | About</title>
+			</Head>
+			<div className="container">
+				<h1>About</h1>
+			</div>
 		</>
 	)
 }

@@ -5,7 +5,7 @@ const Navbar: NextPage = () => {
 	return (
 		<div className="navbar">
 			<div className="container">
-	      		<h1 className="title">Flowers</h1>
+	      		<h1 className="title">Flowers &#127804;</h1>
 				<ul>
 					<li><Link href="/">Home</Link></li>
 					<li><Link href="/about">About</Link></li>
