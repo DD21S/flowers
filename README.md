@@ -62,10 +62,10 @@ python manage.py createsuperuser --email admin@example.com --username admin
 And finally, run the project:
 
 ```
-python3 manage.py runserver
+python manage.py runserver
 ```
 
-Ready, now your library is running :)
+Ready, now your API REST is running :)
 
 ---
 
@@ -85,7 +85,7 @@ source venv/bin/activate
 | ----------- | -------------------------- | ---------------------------------- |
 | **GET**     | /flowers/                  | Get all flowers                    |
 | **POST**    | /flowers/                  | Add a flower                       |
-| **UPDATE**  | /flowers/{slug}            | Update a flower                    |
+| **PUT**     | /flowers/{slug}            | Update a flower                    |
 | **PATCH**   | /flowers/{slug}            | Update a flower                    |
 | **DELETE**  | /flowers/{slug}            | Delete a flower                    |
 | **POST**    | /api/token/                | Get authentication token (JWT)     |
