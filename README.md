@@ -85,9 +85,9 @@ source venv/bin/activate
 | ----------- | -------------------------- | ---------------------------------- |
 | **GET**     | /flowers/                  | Get all flowers                    |
 | **POST**    | /flowers/                  | Add a flower                       |
-| **PUT**     | /flowers/{slug}            | Update a flower                    |
-| **PATCH**   | /flowers/{slug}            | Update a flower                    |
-| **DELETE**  | /flowers/{slug}            | Delete a flower                    |
+| **PUT**     | /flowers/{slug}/           | Update a flower                    |
+| **PATCH**   | /flowers/{slug}/           | Update a flower                    |
+| **DELETE**  | /flowers/{slug}/           | Delete a flower                    |
 | **POST**    | /api/token/                | Get authentication token (JWT)     |
 | **POST**    | /api/token/refresh/        | Refresh authentication token (JWT) |
 | **POST**    | /api/token/verify/         | Verify authentication token (JWT)  |
