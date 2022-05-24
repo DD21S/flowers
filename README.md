@@ -1,3 +1,5 @@
+# Flowers
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
@@ -65,7 +67,7 @@ And finally, run the project:
 python manage.py runserver
 ```
 
-Ready, now your API REST is running :)
+Ready, now your REST API is running :)
 
 ---
 
